@@ -148,13 +148,14 @@
   bottom: 10px;
   &.lart {
     top: 10px;
-    right: 15px;
+    right: 30px;
     bottom: auto;
     text-align: right;
     height: 25px;
     overflow: hidden;
     min-height: 0;
     transition: height .5s linear;
+    position: fixed!important;
   }
   &.active {
     height: 200px;
