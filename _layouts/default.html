@@ -13,7 +13,9 @@ layout: compress
     <main class="main">
       {% include header.html %}
       <div class="post-list col-sm-6 text-center">
-      {{ content }}
+        <div class="layout-fixer">
+          {{ content }}
+        </div>
       <p id="copyleft"><i class="fa fa-copyright" aria-hidden="true"></i> Copyleft</p>
       </div>
     </main>

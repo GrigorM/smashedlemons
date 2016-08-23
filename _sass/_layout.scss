@@ -42,6 +42,22 @@
   }
 }
 
+.layout-fixer {
+  min-height: 90%;
+  height: auto!important;
+}
+.article-container {
+  min-height: 90%;
+  height: auto!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.post-images {
+  background-image: none!important;
+  overflow-y: auto;
+}
 
 //
 // Site header
@@ -159,10 +175,6 @@
 
 .article {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding: 0 25px!important;
   overflow-y: auto;
 }

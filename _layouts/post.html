@@ -15,6 +15,7 @@ image: trung.JPG
     <main class="main">
       <article class="col-sm-6 text-center article">
         <div class="article-container">
+          <div>
           <header class="post-header">
             <h1 class="post-title">{{ page.title }}</h1> {{ page.layout }}
             <span class="post-meta">
@@ -46,10 +47,11 @@ image: trung.JPG
             {% include comments.html %}
 
           </div>
+          </div>
         </div>
         <p id="copyleft"><i class="fa fa-copyright" aria-hidden="true"></i> Copyleft</p>
       </article>
-      {% include header.html %}
+      {% include post-images.html %}
     </main>
     <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script src="/custom.js"></script>
