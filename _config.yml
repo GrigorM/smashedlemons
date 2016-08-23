@@ -1,0 +1,27 @@
+# Site settings
+title: lemonade
+alter_title: smashedlemons
+email: miss.mino.fiona@gmail.com
+description: (no sugar added)
+
+author:
+  name     : 'Smashedlemons'
+  email    : miss.mino.fiona@gmail.com
+  url      : http://nandomoreira.me
+  twitter  : http://twitter.com/smashedlemons
+
+github: https://github.com/smashedlemons
+disqus_shortname: ""
+google_analytics:
+
+paginate: 2
+comments: true
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+markdown  : kramdown
+permalink : /:title/
