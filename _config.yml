@@ -25,4 +25,4 @@ sass:
 markdown  : kramdown
 permalink : /:title/
 
-# baseurl: https://grigorm.github.io/smashedlemons/
+baseurl: https://grigorm.github.io/smashedlemons/
